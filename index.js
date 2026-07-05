@@ -69,9 +69,3 @@ function shake() {
         container.classList.remove("shake");
     }, 400);
 }
-
-// Optional: Handle direct click on the "View Resume Dashboard" link
-document.querySelector('.login-link')?.addEventListener('click', function(e) {
-    // You can add a confirmation or tracking here if needed
-    console.log('Navigating to Resume Dashboard...');
-});
